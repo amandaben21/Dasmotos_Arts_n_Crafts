@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    background-image:url(./images/pattern.jpg) ;
+    margin: 25px;
+}
+
+header h1{
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+.brushes{
+    background-color: mediumspringgreen;
+}
+
+.frames{
+    background-color: lightcoral;
+}
+
+.paint{
+    background-color: skyblue;
+}
+
+.paint, .brushes,.frames{
+    margin: 25px;
+}
+
+.brush, .frame, .tube{
+    margin: 1px 25px;
+    padding: 1px
+
+}
+span{
+    color: blue;
+    font-weight: bold;
+}
